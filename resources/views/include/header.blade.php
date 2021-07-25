@@ -8,7 +8,7 @@
           <ul class="top-contact">
             <li><i class="fas fa-map-marker-alt"></i>बबरमहल काठमाडौं</li>
             <li><i class="fa fa-phone"></i>नेपाल फोन:<a href="tel:+977 123456789">+९७७ १२३४५६७८९</a></li>
-            <li><a href="mailto: khodfo@dof.gov.np"><i class="fa fa-envelope"></i>info@cfsc.gov.np</a></li>
+            <li><a href="mailto: info@cfsc.gov.np"><i class="fa fa-envelope"></i>info@cfsc.gov.np</a></li>
             <li><i class="fa fa-calendar"></i>{{ TodayDate::nepali() }}</li>
           </ul>
           <!-- End Top Contact -->
@@ -65,7 +65,7 @@
                 <span class="logo-address color-secondary">नेपाल सरकार</span>
                 <span class="logo-address color-secondary">वन तथा वातावरण मन्त्रालय / वन तथा भु संरक्षण बिभाग</span>
                 <span class="logo-title color-primary">सामुदायिक वन अध्ययन केन्द्र (सी.एफ.एस.सी-नेपाल)</span>
-                <span class="logo-address color-secondary">प्रदेश नं ३, नेपाल</span>
+                <span class="logo-address color-secondary">बागमती प्रदेश, नेपाल</span>
               </div>
             </div>
           </a>

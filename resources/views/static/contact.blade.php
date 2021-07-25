@@ -31,7 +31,7 @@
                     <div class="contact-info-block">
                         <i class="fas fa-map-marker-alt fa-2x mb-2"></i>
                         <h5>ठेगाना</h5>
-                        <div class="text">डिभिजन वन कार्यलय, खोटाङ्ग</div>
+                        <div class="text">सामुदायिक वन अध्ययन केन्द्र, बबरमहल काठमाडौं</div>
                         <div class="text">प्रदेश नं १, नेपाल</div>
                     </div>
                 </div>
@@ -39,8 +39,7 @@
                     <div class="contact-info-block">
                         <i class="fa fa-envelope fa-2x mb-2"></i>
                         <h5>ई-मेल</h5>
-                        <div class="text">khodfo@dof.gov.np.com</div>
-                        <div class="text">info@dfokhotang.gov.np</div>
+                        <div class="text">info@cfsc.gov.np</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -61,9 +60,9 @@
             <h1>सन्देश पठाउनुहोस्</h1>
         </div>
         <div class="default-form-area">
-            <p class="text-secondary primary text-left font-weight-normal">तपाईंले निम्न फारम मार्फत आफ्ना सन्देश यस डिभिजन वन कार्यालयलाई पठाउन सक्नुहुन्छ। सो
+            <p class="text-secondary primary text-left font-weight-normal">तपाईंले निम्न फारम मार्फत आफ्ना सन्देश यस सामुदायिक वन अध्ययन केन्द्रलाई पठाउन सक्नुहुन्छ। सो
                 तरिका ले पठायिएको कुनै पनि सन्देशले तपाईंले भरेका निम्न विवरण बाहेकका ब्यक्तिगत जानकारी सम्प्रेशन गरेर राख्ने छैन। तपाईंकाे
-                सन्देशलाई यस डिभिजन वन कार्यालयले गम्भिर्ताका साथ हेर्नेछ।</p>
+                सन्देशलाई यस सामुदायिक वन अध्ययन केन्द्रले गम्भिर्ताका साथ हेर्नेछ।</p>
             <form action="/contact" id="contact-form" method="POST">
                 @csrf
                 <div class="row clearfix">

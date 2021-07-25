@@ -104,13 +104,13 @@ if ($('.modal:visible').length) {
             <div class="officer-card mt-3 mt-lg-0" style="">
                 <div class="officers">
                     <div class="officer-img">
-                        <img src="/images/blank-user.jpg">
+                        <img src="/images/Uma_Paudel.jpg">
                     </div>
                     <div class="officer-designation">
                         <strong>कार्यलय प्रमुख</strong>
                     </div>
                     <div class="officer-name">
-                        मेरो नाम
+                        उमा पाैडेल
                     </div>
                 </div>
                 <div class="officers">
@@ -121,7 +121,7 @@ if ($('.modal:visible').length) {
                         <strong>सूचना अधिकारी</strong>
                     </div>
                     <div class="officer-name">
-                        बिष्णु प्रशाद घिमिरे
+                        बिष्णु प्रशाद ज्ञवाली
                     </div>
                 </div>
             </div>
@@ -228,16 +228,7 @@ if ($('.modal:visible').length) {
                 <div class="about-content-block">
                     <h3>हाम्रो बारेमा</h3>
                     <div class="text mb-40">
-                        <p>खोटाङ्ग जिल्ला नेपालको सात वटा प्रदेश मध्ये प्रदेश नं. १ अन्तर्गत सगरमाथा अञ्चलमा पर्ने पहाडी
-                            जिल्ला हो । यस जिल्लामा करिव ५२.५४ प्रतिशत वनक्षेत्र रहेको छ । खोटाङ जिल्ला समुन्द्र सतहबाट
-                            करीव १५२ मिटर देखि ३,६२० मिटरसम्मको उचाइमा रहेका कारण वनको किसिममा पनि भिन्नता रहेको पाईन्छ
-                            । यस जिल्लामा खयर सिसौ लगायतका प्रजातीहरु देखी गोब्रे सल्ला, ठिंगुरे सल्ला,लौठ सल्ला,
-                            अमेरिकन सल्ला, खोटेसल्ला , चिलाउने, कटुस, साज, कर्मा लगायतका प्रजातीहरु पाईन्छ । जिल्लाको
-                            मुख्य वनलाइ यसरी उपोष्ण सदाबहार वन (Tropical Forest), मौसमी पतझर वन (Sub Tropical Broad
-                            Leaved Forest) र समशितोष्ण कोणधारी वन (Upper Temperate Mixed Deciduous & Coniferous Forest)
-                            गरी तिन प्रकारमा विभाजन गर्न सकिन्छ । खोटाङ्ग जिल्लाको कुल क्षेत्रफल १,५४,०२० हे. मध्य वनको
-                            कुल क्षेत्रफल ८०,९२९ हे. रहेको छ जसमा सामुदायिक वनको क्षेत्रफल ४८६८५.५ हे., कवुलियती वनको
-                            क्षेत्रफल ८८४.६५ हे. र बाँकी राष्ट्रिय वनको क्षेत्रफल ३१३८५.८५ हे. रहेको छ ।</p>
+                        <p></p>
                     </div>
                     <div class="link-btn mb-30"><a href="/s/introduction" class="bttn">थप पढ्नुहोस्</a></div>
                 </div>
@@ -247,7 +238,7 @@ if ($('.modal:visible').length) {
                     <div class="inner-box">
                         <div class="image"> <img src="/images/dots.png" alt="about bg">
                             <div class="about-khotang-image d-none d-md-block">
-                                <img class="float-bob-y" src="/" alt="homepage_image">
+                                <img class="float-bob-y" src="{{ Voyager::image(setting('site.home_image'))}}" alt="homepage_image">
                             </div>
                         </div>
                     </div>
