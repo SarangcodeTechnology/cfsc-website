@@ -257,7 +257,7 @@ if ($('.modal:visible').length) {
     </div>
 </section>
 <!-- end of about section -->
-<section class="social-media-link mb-2" style="background: #e7e7e7">
+{{-- <section class="social-media-link mb-2" style="background: #e7e7e7">
 <div class="container my-2">
 
     <h3 class="d-flex justify-content-center"><strong>हाम्राे सामाजीक सञ्जाल</strong></h3>
@@ -274,5 +274,5 @@ if ($('.modal:visible').length) {
         </div>
     </div>
 </div>
-</section>
+</section> --}}
 @endsection
