@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="coming-soon-assets">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/public/coming-soon-assets.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
