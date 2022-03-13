@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-9 col-md-8 col-12 d-flex align-items-center">
-          <!-- Top Contact --> 
+          <!-- Top Contact -->
           <ul class="top-contact">
             <li><i class="fas fa-map-marker-alt"></i>बबरमहल काठमाडौं</li>
             <li><i class="fa fa-phone"></i>नेपाल फोन:<a href="tel:+977 123456789">+९७७ १२३४५६७८९</a></li>
@@ -20,18 +20,18 @@
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
             <li>
               @guest
-              <div class="dropdown">                
+              <div class="dropdown">
                 <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> 
+                  aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <a class="dropdown-item text-dark" target="_blank" href="{{ route('voyager.login') }}">Login</a>
                 </div>
               </div>
               @else
-              <div class="dropdown">     
+              <div class="dropdown">
                 <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> {{ Auth::user()->name }} 
+                  aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> {{ Auth::user()->name }}
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <a class="dropdown-item text-dark" href="{{ route('voyager.dashboard') }}">Dashboard</a>
@@ -57,15 +57,16 @@
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-3 col-md-3 col-9" style="display: inline-block;">
         <!-- Start Logo -->
-        <div class="logo" style="height: 70px; padding-left:12px">
+        <div class="logo" style="height: 90px; padding-left:12px">
           <a href="#">
             <div class="dfo-logo">
               <img src="/images/nepal_emblem_new.gif">
               <div class="logo-desc">
-                <span class="logo-address color-secondary">नेपाल सरकार</span>
-                <span class="logo-address color-secondary">वन तथा वातावरण मन्त्रालय / वन तथा भु संरक्षण बिभाग</span>
+                <span class="logo-address-small color-secondary">नेपाल सरकार</span>
+                <span class="logo-address-small color-secondary">वन तथा वातावरण मन्त्रालय</span>
+                <span class="logo-address color-secondary">वन तथा भु संरक्षण बिभाग</span>
                 <span class="logo-title color-primary">सामुदायिक वन अध्ययन केन्द्र (सी.एफ.एस.सी-नेपाल)</span>
-                <span class="logo-address color-secondary">बागमती प्रदेश, नेपाल</span>
+                <span class="logo-address-small color-secondary">बबरमहल, काठमाडौँ</span>
               </div>
             </div>
           </a>

@@ -104,13 +104,13 @@ if ($('.modal:visible').length) {
             <div class="officer-card mt-3 mt-lg-0" style="">
                 <div class="officers">
                     <div class="officer-img">
-                        <img src="/images/Bishnu-Gyawali.jpg">
+                        <img src="/images/shova-subedi.jpg">
                     </div>
                     <div class="officer-designation">
-                        <strong>कार्यलय प्रमुख</strong>
+                        <strong>केन्द्र प्रमुख</strong>
                     </div>
                     <div class="officer-name">
-                        बिष्णु प्रशाद ज्ञवाली
+                        शाेभा सुवेदी
                     </div>
                 </div>
                 <div class="officers">
