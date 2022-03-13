@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    
+
 <head>
 	<title>Administrator</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -15,7 +15,7 @@
 <style>
     body *{
         font-family: 'Poppins', sans-serif;
-    }    
+    }
     body,
 		html {
 			margin: 0;
@@ -51,7 +51,7 @@
 			text-align: center;
 		}
 		.brand_logo {
-            user-drag: none; 
+            user-drag: none;
             user-select: none;
             -moz-user-select: none;
             -webkit-user-drag: none;
@@ -99,7 +99,7 @@
             color: #c0392b;
             font-size: 13px;
         }
-</style>    
+</style>
 
 
 
@@ -109,7 +109,7 @@
 			<div class="user_card">
 				<div class="d-flex justify-content-center" oncontextmenu="return false;">
 					<div class="brand_logo_container">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Emblem_of_Nepal.svg" class="brand_logo" alt="Logo">
+                            <img src="/images/nepal_emblem_new.gif" class="brand_logo" alt="Logo">
 					</div>
 				</div>
 				<div class="d-flex justify-content-center form_container">
@@ -123,8 +123,8 @@
                         </div>
                         @if($errors->first('name'))
                         <div class="error mb-2 pl-5 mt-0" >Please enter credentials correctly</div>
-                        @endif          
-                        
+                        @endif
+
 						<div class="input-group mt-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
